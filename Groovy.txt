@@ -1,0 +1,3 @@
+${__groovy(${__groovy(prev.getHttpCode().toInterger(),)} = 200,)}
+
+${__groovy(${__groovy(prev.getLatency().toInteger(),)}<100,)}
